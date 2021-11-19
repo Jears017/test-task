@@ -1,0 +1,66 @@
+.mainField {
+    margin: 0 auto;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.odd {
+    background-color: antiquewhite;
+}
+
+.even {
+    background-color: aquamarine;
+}
+
+.numberContainer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 200px;
+}
+
+.infoNumberContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.infoNumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 200px;
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.buttonsGroup{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.buttonsGroup button{
+    width: 60px;
+    height: 30px;
+    font-size: 13px;
+}
